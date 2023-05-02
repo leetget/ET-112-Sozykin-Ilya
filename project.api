@@ -5,7 +5,6 @@
 !sun.cpp graphics.h keys_n_colors.h #<#>
 door(int x1, int y1, int x2, int y2) -> void #<house.cpp>
 fence() -> void #<picture.hpp>
-fence(int x, int y, int h) -> void #<fence.cpp>
 house() -> void #<picture.hpp>
 main() -> int #<program.cpp>
 man() -> void #<picture.hpp>
