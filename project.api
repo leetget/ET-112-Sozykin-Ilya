@@ -6,13 +6,11 @@
 door(int x1, int y1, int x2, int y2) -> void #<house.cpp>
 fence() -> void #<picture.hpp>
 fence(int x, int y, int h) -> void #<fence.cpp>
-home() -> void #<house.cpp>
 house() -> void #<picture.hpp>
 main() -> int #<program.cpp>
 man() -> void #<picture.hpp>
 ruchka(int x, int y, int radius) -> void #<house.cpp>
 stena(int x1, int x2, int y1, int y2) -> void #<house.cpp>
 sun() -> void #<picture.hpp>
-sun(int x, int y, int r) -> void #<sun.cpp>
 treug_dom(int x, int y, int a) -> void #<house.cpp>
 trubaxd(int x1, int x2, int y1, int y2) -> void #<house.cpp>
