@@ -1,7 +1,14 @@
 # picture.hpp
-!program.cpp graphics.h picture.hpp #<#>
+!house.cpp graphics.h keys_n_colors.h picture.hpp #<#>
+!program.cpp graphics.h keys_n_colors.h picture.hpp #<#>
+!sun.cpp graphics.h keys_n_colors.h #<#>
+door(int x1, int y1, int x2, int y2) -> void #<house.cpp>
 fence() -> void #<picture.hpp>
 house() -> void #<picture.hpp>
 main() -> int #<program.cpp>
 man() -> void #<picture.hpp>
+ruchka(int x, int y, int radius) -> void #<house.cpp>
+stena(int x1, int x2, int y1, int y2) -> void #<house.cpp>
 sun() -> void #<picture.hpp>
+treug_dom(int x, int y, int a) -> void #<house.cpp>
+trubaxd(int x1, int x2, int y1, int y2) -> void #<house.cpp>
