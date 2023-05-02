@@ -26,7 +26,7 @@ void trubaxd(int x1,int x2,int y1,int y2){
    setfillstyle(SOLID_FILL,COLOR(136,69,53));
    bar(x1,x2,y1,y2);
 }
-void home(int x, int y, int h){
+void house(int x, int y, int h){
    stena(x,y,x+150,y+150);
    trubaxd(x+10,y-80,x+40,y-10);
    treug_dom(x-20,y,h);
