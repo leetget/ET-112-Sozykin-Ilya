@@ -7,7 +7,7 @@ int main()
  house(); // дом
  sun(); // солнце
  //man(); // человек
- //fence(); // забор
+ fence(); // забор
  getch();
  closegraph();
 }
