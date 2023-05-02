@@ -71,12 +71,16 @@ endif
 CCCS = -finput-charset=utf-8 -fexec-charset=windows-1251
 CCCW = -finput-charset=windows-1251 -fexec-charset=windows-1251
 HS = $(sort $(CHEADERS) $(GRMHEADER) $(CAIOGENERH) $(SMGENERH))
+<<<<<<< Updated upstream
 INIT="C:\Users\aknel\Downloads\MinIDE\SciTE/../lib/initansicp.o"
 =======
 CCCS = -finput-charset=windows-1251 -fexec-charset=windows-1251
 HS = $(sort $(CHEADERS) $(GRMHEADER) $(CAIOGENERH) $(SMGENERH))
 INIT="C:\Program Files (x86)\MinIDE\SciTE/../lib/initansicp.o"
 >>>>>>> fence.cpp
+=======
+INIT="C:\Users\sozyk\Desktop\MinIDE\SciTE/../lib/initansicp.o"
+>>>>>>> Stashed changes
 
 .PHONY : all clean
 
