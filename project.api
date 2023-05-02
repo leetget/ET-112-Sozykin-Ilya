@@ -1,0 +1,7 @@
+# picture.hpp
+!program.cpp graphics.h picture.hpp #<#>
+fence() -> void #<picture.hpp>
+house() -> void #<picture.hpp>
+main() -> int #<program.cpp>
+man() -> void #<picture.hpp>
+sun() -> void #<picture.hpp>
