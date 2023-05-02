@@ -1,5 +1,8 @@
 #include "picture.hpp"
-void fence(int x, int y, int h){
+void fence(){
    setfillstyle(SOLID_FILL, BROWN);
-   rectangle(200, 420, 400, 520);
+   int x1 = 380;
+   int y1 = 360;
+   int x2 = 600;
+   int y2 = 460;
    }
