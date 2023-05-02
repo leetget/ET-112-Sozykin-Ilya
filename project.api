@@ -1,13 +1,13 @@
 # picture.hpp
 !fence.cpp graphics.h keys_n_colors.h #<#>
-!house.cpp graphics.h keys_n_colors.h #<#>
+!house.cpp graphics.h keys_n_colors.h picture.hpp #<#>
 !program.cpp graphics.h keys_n_colors.h picture.hpp #<#>
 !sun.cpp graphics.h keys_n_colors.h #<#>
 door(int x1, int y1, int x2, int y2) -> void #<house.cpp>
 fence() -> void #<picture.hpp>
 fence(int x, int y, int h) -> void #<fence.cpp>
+home() -> void #<house.cpp>
 house() -> void #<picture.hpp>
-house(int x, int y, int h) -> void #<house.cpp>
 main() -> int #<program.cpp>
 man() -> void #<picture.hpp>
 ruchka(int x, int y, int radius) -> void #<house.cpp>
